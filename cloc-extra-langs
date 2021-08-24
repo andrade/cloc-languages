@@ -1,3 +1,8 @@
+ASN.1
+    filter remove_matches ^\s*--
+    filter remove_inline --.*$
+    extension asn1
+    3rd_gen_scale 1.00
 EDL
     filter remove_matches ([0-9]+.*)+\s+/
     filter call_regexp_common C

@@ -1,7 +1,7 @@
-New language file(s) for [cloc](https://github.com/AlDanial/cloc).
+New language processing filters for [cloc](https://github.com/AlDanial/cloc).
 
 ```
-$ cloc --read-lang-def=cloc-edl <FILE|DIR> ...
+$ cloc --read-lang-def=cloc-extra-langs <FILE|DIR> ...
 ```
 
 ### Example
@@ -16,7 +16,7 @@ Wrote ignored
 $ more ignored
 sgx.edl: language unknown (#3)
 
-$ cloc --ignored=ignored --read-lang-def=cloc-edl sgx.edl
+$ cloc --ignored=ignored --read-lang-def=cloc-extra-langs sgx.edl
        1 text file.
        1 unique file.
 Wrote ignored
