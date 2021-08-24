@@ -1,4 +1,4 @@
-Add support for EDL in cloc
+New language file(s) for [cloc](https://github.com/AlDanial/cloc).
 
 ```
 $ cloc --read-lang-def=cloc-edl <FILE|DIR> ...
